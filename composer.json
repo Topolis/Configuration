@@ -1,0 +1,26 @@
+{
+    "name": "topolis/configuration",
+    "description": "Simple yaml based configuration service for silex and other applications",
+    "type": "library",
+    "keywords": [
+        "configuration",
+        "topolis",
+        "yaml"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ToBe998",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "topolis/function-library": "^2.0",
+        "symfony/yaml": "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+           "Topolis\\Configuration\\" : "src"
+        }
+    }
+}
